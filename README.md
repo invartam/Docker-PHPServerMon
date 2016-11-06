@@ -68,6 +68,7 @@ variable with the full URL to access it with http:// or https://
           - PSM_DB_USER="root"
           - PSM_DB_PASS="test"
           - PSM_DB_PREFIX=""
+          - UPDATE_INTERVAL=30
         ports:
           - "8081:80"
 
