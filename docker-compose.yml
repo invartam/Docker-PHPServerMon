@@ -28,5 +28,6 @@ services:
       - PSM_DB_USER=root
       - PSM_DB_PASS=test
       - PSM_DB_PREFIX=""
+      - UPDATE_INTERVAL=15
     ports:
       - "8081:80"

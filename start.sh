@@ -2,7 +2,7 @@
 
 function services()
 {
-	/usr/bin/supervisord
+	UPDATE_INTERVAL=$UPDATE_INTERVAL /usr/bin/supervisord
 }
 
 function configure()
