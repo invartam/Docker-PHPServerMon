@@ -73,6 +73,6 @@ variable with the full URL to access it with http:// or https://
           - "8081:80"
 
 # Sources
-Image Github: https://github.com/invartam/Docker-PHPServerMon
-PHPServerMon Github: https://github.com/phpservermon/phpservermon
-PHPServerMon website: http://www.phpservermonitor.org/
+* Image Github: https://github.com/invartam/Docker-PHPServerMon
+* PHPServerMon Github: https://github.com/phpservermon/phpservermon
+* PHPServerMon website: http://www.phpservermonitor.org/
