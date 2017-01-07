@@ -29,6 +29,7 @@ services:
     environment:
       - PSM_BASE_URL=""
       - PSM_DB_HOST=mysql
+      - PSM_DB_PORT=3306
       - PSM_DB_NAME=phpservermon
       - PSM_DB_USER=root
       - PSM_DB_PASS=test
