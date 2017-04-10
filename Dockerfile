@@ -3,7 +3,6 @@ FROM invartam/docker-alpine-php-fpm-advanced
 WORKDIR /app
 RUN apk add git \
     && git clone https://github.com/phpservermon/phpservermon.git ./ \
-    && git checkout eadc9b145e574a43d4daad132d7de9157d9e2fe6 \
     && php composer.phar install \
     && rm -rf Makefile Vagrantfile composer* .git \
     && apk del git
