@@ -15,6 +15,7 @@ You need to create the database for phpservermon before starting the app.
 
     docker run -d -p 80:80 -e PSM_BASE_URL="" \
                            -e PSM_DB_HOST="mysql" \
+                           -e PSM_DB_PORT="3306" \
                            -e PSM_DB_NAME="phpservermon" \
                            -e PSM_DB_USER="root" \
                            -e PSM_DB_PASS="test" \
@@ -64,6 +65,7 @@ variable with the full URL to access it with http:// or https://
         environment:
           - PSM_BASE_URL=""
           - PSM_DB_HOST="mysql"
+          - PSM_DB_PORT="3306"
           - PSM_DB_NAME="phpservermon"
           - PSM_DB_USER="root"
           - PSM_DB_PASS="test"
